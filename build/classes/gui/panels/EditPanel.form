@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="24" max="32767" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jComboBoxAnotimpuri" min="-2" pref="110" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jComboBoxAnotimpuri" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JComboBox" name="jComboBoxAnotimpuri">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="IARNA"/>
+                    <StringItem index="1" value="PRIMAVARA"/>
+                    <StringItem index="2" value="VARA"/>
+                    <StringItem index="3" value="TOAMNA"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Alege anotimpul la care se refera scena"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+              <Properties>
+                <Property name="focusCycleRoot" type="boolean" value="true"/>
+                <Property name="name" type="java.lang.String" value="" noResource="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jScrollPane1" pref="340" max="32767" attributes="0"/>
+                              <Component id="jTextFieldTaguri" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldTaguri" min="-2" pref="32" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" min="-2" pref="167" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="jTextFieldTaguri">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" value="Introduceti cuvinte despartite prin virgula si spatiu"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextAreaDescriere">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="toolTipText" type="java.lang.String" value="Adauga cometarii"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cuvinte cheie"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Comentarii"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jButtonUpdate" linkSize="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonAdauga" linkSize="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButtonCautare" linkSize="2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButtonAdauga" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButtonUpdate" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                          <Component id="jButtonCautare" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="jButtonAdauga">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Adauga"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonAdaugaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonCautare">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cautare"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCautareActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonUpdate">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Reinnoeste"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonUpdateActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Indica anotimpul"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
